@@ -1,0 +1,34 @@
+{
+	"name": "icanhasweb-11ty",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx @11ty/eleventy --formats=mdx",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/megoth/icanhasweb-11ty.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/megoth/icanhasweb-11ty/issues"
+	},
+	"homepage": "https://github.com/megoth/icanhasweb-11ty#readme",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.6",
+		"@mdx-js/mdx": "^3.1.1",
+		"react": "^19.2.8",
+		"react-dom": "^19.2.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.5",
+		"@types/react": "^19.2.17",
+		"@types/react-dom": "^19.2.3",
+		"tsx": "^4.23.1"
+	}
+}
