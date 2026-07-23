@@ -1,19 +1,34 @@
-import { FC, ReactNode } from "react";
+import type { FC, ReactNode } from "react";
 
 interface Props {
 	children: ReactNode;
-	title: string;
+	title?: string;
 }
+
+const BASE_TITLE = "Arne Hassel @ Web";
 
 export const Layout: FC<Props> = ({ children, title }) => {
 	return (
 		<html lang="en">
 			<head>
 				<meta charSet="UTF-8" />
-				<title>{title || "My 11ty Site"}</title>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>{title ? `${title} > ${BASE_TITLE}` : BASE_TITLE}</title>
+				<link rel="stylesheet" href="/css/style.css" />
 			</head>
 			<body>
-				<main dangerouslySetInnerHTML={{ __html: children }} />
+				<header>
+					<h1 className="title">{title || BASE_TITLE}</h1>
+				</header>
+				<main>{children}</main>
+				<footer>
+					This site is licensed with{" "}
+					<a href="https://creativecommons.org/licenses/by-nc/4.0/">
+						CC BY-NC 4.0
+					</a>
+					. Code available at{" "}
+					<a href="https://github.com/megoth/icanhasweb-11ty">GitHub</a>.
+				</footer>
 			</body>
 		</html>
 	);

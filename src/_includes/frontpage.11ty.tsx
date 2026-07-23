@@ -1,10 +1,14 @@
 import { Layout } from "./layout.js";
 
 interface EleventyProps {
-	title?: string;
 	content: string;
+	title?: string;
 }
 
 export const render = ({ title, content }: EleventyProps) => {
-	return <Layout title={title || "My 11ty Site"}>{content}</Layout>;
+	return (
+		<Layout title={title}>
+			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
+		</Layout>
+	);
 };

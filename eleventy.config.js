@@ -6,6 +6,8 @@ import * as runtime from "react/jsx-runtime";
 
 export default async function (eleventyConfig) {
 	eleventyConfig.setInputDirectory("src");
+	eleventyConfig.addPassthroughCopy("src/css");
+	eleventyConfig.addPassthroughCopy("src/img");
 	eleventyConfig.setOutputDirectory("dist");
 
 	eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {

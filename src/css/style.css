@@ -1,0 +1,27 @@
+@import "bulma.css";
+
+html {
+	padding: 0;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+body {
+	padding: 1rem;
+
+	@media screen and (min-width: 65ch) {
+		margin: 0 auto;
+		max-width: 60ch;
+	}
+}
+
+body > header {
+	margin-block-end: 1rem;
+}
+
+body > footer {
+	margin-block-start: 1rem;
+}
