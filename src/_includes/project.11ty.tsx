@@ -6,14 +6,7 @@ interface EleventyProps extends ProjectData {
 	content: string;
 }
 
-export const render = async ({
-	content,
-	project,
-	repository,
-	status,
-	title,
-	url,
-}: EleventyProps) => {
+export const render = async ({ content, title, ...meta }: EleventyProps) => {
 	const breadcrumbs = [
 		{ url: "/", title: "Home" },
 		{ url: "/projects", title: "Projects" },
@@ -22,7 +15,7 @@ export const render = async ({
 	return (
 		<Layout title={title} breadcrumbs={breadcrumbs}>
 			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
-			<ProjectMeta {...{ project, repository, status, title, url }} />
+			<ProjectMeta {...meta} />
 		</Layout>
 	);
 };

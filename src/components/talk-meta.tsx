@@ -1,7 +1,9 @@
 import type { FC } from "react";
 import type { TalkData } from "../_data/talks";
 
-export const TalkMeta: FC<TalkData> = ({ date, repository, url }) => (
+interface Props extends Omit<TalkData, "title"> {}
+
+export const TalkMeta: FC<Props> = ({ date, repository, url }) => (
 	<em className="meta">
 		<span>
 			Presented:{" "}

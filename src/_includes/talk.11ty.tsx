@@ -1,21 +1,12 @@
+import type { TalkData } from "../_data/talks";
 import { TalkMeta } from "../components/talk-meta";
 import { Layout } from "./layout";
 
-interface EleventyProps {
+interface EleventyProps extends TalkData {
 	content: string;
-	date: Date;
-	repository: string;
-	title: string;
-	url: string;
 }
 
-export const render = async ({
-	content,
-	date,
-	title,
-	repository,
-	url,
-}: EleventyProps) => {
+export const render = async ({ content, title, ...meta }: EleventyProps) => {
 	const breadcrumbs = [
 		{ url: "/", title: "Home" },
 		{ url: "/talks", title: "Talks" },
@@ -24,7 +15,7 @@ export const render = async ({
 	return (
 		<Layout title={title} breadcrumbs={breadcrumbs}>
 			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
-			<TalkMeta {...{ date, repository, title, url }} />
+			<TalkMeta {...meta} />
 		</Layout>
 	);
 };

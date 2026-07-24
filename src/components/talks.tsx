@@ -19,7 +19,7 @@ export const Talks: FC<Props> = ({ talks }) => {
 								className="content"
 								dangerouslySetInnerHTML={{ __html: html }}
 							/>
-							<TalkMeta {...data} slug={slug} />
+							<TalkMeta {...data} />
 						</dd>
 					</Fragment>
 				))}

@@ -4,11 +4,15 @@ import matter, { type GrayMatterFile } from "gray-matter";
 
 const BLOG_DIR = "src/blog/";
 
+export interface BlogData {
+	date: Date;
+	original?: string;
+	title: string;
+	updated?: Date;
+}
+
 export interface BlogPost extends Omit<GrayMatterFile<string>, "data"> {
-	data: {
-		date: Date;
-		title: string;
-	};
+	data: BlogData;
 }
 
 export default async function getBlogPosts() {

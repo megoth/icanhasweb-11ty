@@ -1,7 +1,9 @@
 import type { FC } from "react";
 import type { ProjectData } from "../_data/projects";
 
-export const ProjectMeta: FC<ProjectData> = ({ repository, url }) => (
+interface Props extends Omit<ProjectData, "title"> {}
+
+export const ProjectMeta: FC<Props> = ({ repository, url }) => (
 	<em className="meta">
 		{url && (
 			<span>

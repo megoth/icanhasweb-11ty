@@ -74,6 +74,7 @@ body > footer {
 	display: flex;
 	gap: var(--bulma-size-small);
 	font-size: var(--bulma-small-font-size);
+	margin-block-end: var(--bulma-size-medium);
 }
 
 .projects.projects,
