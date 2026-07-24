@@ -144,3 +144,6 @@ vite.config.ts.timestamp-*
 
 # IDEA files (WebStorm)
 .idea
+
+# OSX files
+.DS_Store

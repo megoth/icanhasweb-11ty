@@ -1,13 +1,19 @@
 import type { FC, ReactNode } from "react";
 
+interface Breadcrumb {
+	url: string;
+	title: string;
+}
+
 interface Props {
+	breadcrumbs?: Array<Breadcrumb>;
 	children: ReactNode;
 	title?: string;
 }
 
 const BASE_TITLE = "Arne Hassel @ Web";
 
-export const Layout: FC<Props> = ({ children, title }) => {
+export const Layout: FC<Props> = ({ breadcrumbs, children, title }) => {
 	return (
 		<html lang="en">
 			<head>
@@ -19,6 +25,17 @@ export const Layout: FC<Props> = ({ children, title }) => {
 			<body>
 				<header>
 					<h1 className="title">{title || BASE_TITLE}</h1>
+					{breadcrumbs && (
+						<nav className="breadcrumb" aria-label="Breadcrumbs">
+							<ul>
+								{breadcrumbs.map(({ url, title }) => (
+									<li key={`nav-${title}`}>
+										<a href={url}>{title}</a>
+									</li>
+								))}
+							</ul>
+						</nav>
+					)}
 				</header>
 				<main>{children}</main>
 				<footer>

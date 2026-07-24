@@ -1,0 +1,16 @@
+---
+title: "Å blogge eller ikke blogge"
+author: arnehass
+date: 2007-09-06
+layout: blog.11ty.tsx
+tags: automatic, Blogging
+original: https://megoth.wordpress.com/2007/09/06/a-blogge-eller-ikke-blogge/
+---
+
+<p>Det har vært hektisk den siste tiden. Jeg har blitt student i Oslo, med alt det innebærer. Fått meg nytt sted å bo, nye klassekamerater, nye bøker og generelt nye ting å utforske. Det har vært en veldig fin tid, syns jeg, da jeg føler jeg har fått gjort mye ut av den, både på det sosiale og det faglige. Denne uken har derimot skilt seg fra de andre vet at jeg har midlertidig flagget ut, tatt meg fri fra forelesninger og gruppearbeid og heller vært hjemme og slappet av og lest. Eneste unntaket har vært treningen som mine treningskamerater har klart å slepe meg med på. Jeg har til og med vært på dansetrening. Det er ingen unnskyldning for dette, utover at jeg har et lite tilfelle av forkjølelse. Mer riktig er det store tilfellet av latskap som jeg føler denne uka. En latskap som også har vist seg i bloggingen.</p>
+<span class="more"></span>
+<p>Bloggingen har det blitt så som så med den siste måneden. Jeg har <a href="http://megoth.wordpress.com/2007/02/25/hello-world/">tidligere skrevet</a> at jeg blogger primært for min egen del, og at jeg ikke bryr meg særlig mye om nytten andre evt. skulle finne i det jeg skriver. Vel, tingene har endret seg. Det har jeg innsett etter som jeg gang på gang sjekker statistikken for å se hvor mange som var innom i går, og hvor mange som har vært innom til nå i dag. Og nå som Automatic har <a href="http://wordpress.com/blog/2007/08/21/good-charts-come-in-threes/">utvidet statistikk-funksjonen</a> med ukentlig og månedlig oversikt, blir jeg enda mer hekta.</p>
+<p>Jeg liker at folk leser innleggene mine og kommenterer. Det passer veldig godt til skrivestilen min, føler jeg. Når jeg skal skrive noe har jeg en idé for hva teksten skal omhandle, men formen og forløpet viser seg først etter at jeg har skrevet mesteparten ferdig. Det har dermed blitt noen sære innlegg da jeg halvveis i teksten skjønner feilen i mine argumenter, finner ut at temaet kan ha en annen innfallsvinkel og utfall, og sammensuriet av dette blir publisert. Jeg burde kanskje bli mer kritisk overfor hva jeg skriver. Men det er nettopp dette som jeg mener betegner skrivestilen min. Det er “a work in progress”, en tankeprosess, informasjon jeg bearbeider i hodet mitt for tiden og som jeg tyr til skrivinga for å se om jeg kommer noe videre. Innspill fra andre er dermed en effektiv måte å tilegne seg andre synspunkter på.</p>
+<p>Ved å linke til sider hvor jeg henter informasjon, får jeg også iblant kommentare fra forfatterne med innspill på evt. misforståelser jeg har tilegnet. Det er en fantastisk måte å styrke integriteten i forståelsen, og jeg takker de som tar på seg tiden til å komme med tilbakemeldinger.</p>
+<p>Så for å ta for seg overskriften. Da jeg startet å skrive denne teksten ville jeg se hva jeg selv tenkte om det å blogge videre. Jeg hadde noen tanker, men det beste er å få dem ned på papiret (eller dataskjermen, for dem som er viktig på sånt=)). Så det ser ut til at jeg kommer til å blogge videre, forhåpentligvis litt hyppigere igjen og uten at det må til en utflagging av de daglige sysslene.</p>
+<p>Happy blogging everyone=D</p>

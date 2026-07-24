@@ -25,3 +25,11 @@ body > header {
 body > footer {
 	margin-block-start: 1rem;
 }
+
+.blog-posts {
+	list-style: disc;
+	ul {
+		list-style: disc;
+		margin-inline-start: 1rem;
+	}
+}

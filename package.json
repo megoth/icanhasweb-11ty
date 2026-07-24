@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "npx @11ty/eleventy --formats=mdx --serve",
-		"build": "npx @11ty/eleventy --formats=mdx",
+		"dev": "npx @11ty/eleventy --formats=md,mdx --serve",
+		"build": "npx @11ty/eleventy --formats=md,mdx",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -23,11 +23,13 @@
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.6",
 		"@mdx-js/mdx": "^3.1.1",
+		"gray-matter": "^4.0.3",
 		"react": "^19.2.8",
 		"react-dom": "^19.2.8"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.5",
+		"@types/node": "^26.1.1",
 		"@types/react": "^19.2.17",
 		"@types/react-dom": "^19.2.3",
 		"tsx": "^4.23.1"

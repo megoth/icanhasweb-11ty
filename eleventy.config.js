@@ -10,6 +10,8 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/img");
 	eleventyConfig.setOutputDirectory("dist");
 
+	eleventyConfig.addWatchTarget("src/components/**");
+
 	eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {
 		key: "11ty.js",
 		compile: () =>
