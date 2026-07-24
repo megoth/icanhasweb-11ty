@@ -7,14 +7,6 @@ tags: artist hostel, dublin, dublin castle, dun aengus, galway, guinness, guinne
 original: https://megoth.wordpress.com/2007/07/15/tur-til-irland/
 ---
 
-<table style="float:right;width:194px;">
-<tbody><tr>
-<td style="background:transparent url('http://picasaweb.google.com/f/img/transparent_album_background.gif') no-repeat scroll left center;height:194px;" align="center"><a href="http://picasaweb.google.com/arne.hassel/Irland2007"><img src="http://lh5.google.com/arne.hassel/Rqp3SkphVdE/AAAAAAAABCA/zBNHR7cW7gU/s160-c/Irland2007.jpg" style="margin:1px 0 0 4px;" alt="Ved å trykke på bildet kommer du til galleriet jeg har satt opp for bilder fra turen" height="160" width="160" /></a></td>
-</tr>
-<tr>
-<td style="text-align:center;font-family:arial,sans-serif;font-size:11px;"><a href="http://picasaweb.google.com/arne.hassel/Irland2007">Irland 2007</a></td>
-</tr>
-</tbody></table>
 <p>Dette er en beretning om min reise til <a href="http://en.wikipedia.org/wiki/Ireland">Irland</a>, som jeg tilbringte sammen med 6 venner. Utenlandsturer er et tiltak som har gitt blod på tann blant den nære vennekrets, og 2-3 av dem har tatt det på seg å ta initiativet som trengs, og lokker oss andre med på ulike destinasjoner. For min egen del er turen gjennom Riga, Estland og Sverige et resultat av dette, mens turene til London og Edinburgh var to jeg dessverre ikke fikk tid til. Og flere blir det forhåpentligvis. Men denne teksten skal altså ta for seg den til Irland.</p>
 <span class="more"></span>
 <p>I tillegg til bildene som ligger på <a href="http://picasaweb.google.com/arne.hassel/Irland2007">min picasaweb-konto</a>, så har også en av mine venner lagt opp bilder fra turen på <a href="http://picasaweb.google.com/andersdale/Irland">sin konto</a>.</p>

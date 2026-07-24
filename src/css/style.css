@@ -34,6 +34,31 @@ body > footer {
 	}
 }
 
+.content {
+	picture {
+		text-align: center;
+		display: block;
+		margin-block-end: var(--bulma-content-block-margin-bottom);
+	}
+}
+
+.image {
+	margin-block-end: var(--bulma-content-block-margin-bottom);
+
+	figcaption {
+		font-style: italic;
+	}
+
+	picture {
+		margin-block-end: var(--bulma-size-small);
+	}
+}
+
+.meta {
+	display: flex;
+	gap: var(--bulma-size-small);
+}
+
 .talks.talks {
 	dt {
 		margin-block-end: var(--bulma-size-small);
@@ -45,9 +70,4 @@ body > footer {
 	.content {
 		margin-block-end: var(--bulma-size-small);
 	}
-}
-
-.meta {
-	display: flex;
-	gap: var(--bulma-size-small);
 }

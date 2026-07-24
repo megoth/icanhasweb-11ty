@@ -1,8 +1,9 @@
 import "tsx/esm";
-import { evaluate } from "@mdx-js/mdx";
 import { pathToFileURL } from "node:url";
-import { renderToStaticMarkup } from "react-dom/server";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { evaluate } from "@mdx-js/mdx";
 import * as runtime from "react/jsx-runtime";
+import { renderToStaticMarkup } from "react-dom/server";
 
 export default async function (eleventyConfig) {
 	eleventyConfig.setInputDirectory("src");
@@ -35,6 +36,8 @@ export default async function (eleventyConfig) {
 			};
 		},
 	});
+
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
 	eleventyConfig.addTemplateFormats(["11ty.jsx", "11ty.ts", "11ty.tsx"]);
 }
