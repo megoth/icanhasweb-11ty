@@ -17,7 +17,7 @@ export const Projects: FC<Props> = ({ projects }) => {
 							className="content"
 							dangerouslySetInnerHTML={{ __html: html }}
 						/>
-						<ProjectMeta {...data} slug={slug} />
+						<ProjectMeta {...data} />
 					</dd>
 				</Fragment>
 			))}

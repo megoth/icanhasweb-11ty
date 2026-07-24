@@ -12,9 +12,9 @@ body {
 body {
 	padding: var(--bulma-size-medium);
 
-	@media screen and (min-width: 65ch) {
+	@media screen and (min-width: 71ch) {
 		margin: 0 auto;
-		max-width: 60ch;
+		max-width: 70ch;
 	}
 }
 
@@ -24,6 +24,7 @@ body > header {
 
 body > footer {
 	margin-block-start: var(--bulma-size-medium);
+	font-size: var(--bulma-small-font-size);
 }
 
 .blog-posts {
@@ -52,6 +53,13 @@ body > footer {
 
 .image {
 	margin-block-end: var(--bulma-content-block-margin-bottom);
+	text-align: center;
+
+	img {
+		margin: 0 auto;
+		max-width: 50%;
+		width: auto;
+	}
 
 	figcaption {
 		font-style: italic;

@@ -1,11 +1,7 @@
 import type { FC } from "react";
 import type { TalkData } from "../_data/talks";
 
-interface Props extends TalkData {
-	slug?: string;
-}
-
-export const TalkMeta: FC<Props> = ({ date, repository, slug, url }) => (
+export const TalkMeta: FC<TalkData> = ({ date, repository, url }) => (
 	<em className="meta">
 		<span>
 			Presented:{" "}
@@ -21,10 +17,5 @@ export const TalkMeta: FC<Props> = ({ date, repository, slug, url }) => (
 		<span>
 			<a href={repository}>Repository</a>
 		</span>
-		{slug && (
-			<span>
-				<a href={`/talks/${slug}`}>ICHW Page</a>
-			</span>
-		)}
 	</em>
 );

@@ -11,7 +11,7 @@ interface Props {
 	title?: string;
 }
 
-const BASE_TITLE = "Arne Hassel @ Web";
+const BASE_TITLE = "I Can Has Web – Arne Hassel on the web";
 
 export const Layout: FC<Props> = ({ breadcrumbs, children, title }) => {
 	return (
@@ -19,7 +19,7 @@ export const Layout: FC<Props> = ({ breadcrumbs, children, title }) => {
 			<head>
 				<meta charSet="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>{title ? `${title} > ${BASE_TITLE}` : BASE_TITLE}</title>
+				<title>{title ? `${title} @ ${BASE_TITLE}` : BASE_TITLE}</title>
 				<link rel="stylesheet" href="/css/style.css" />
 			</head>
 			<body>
