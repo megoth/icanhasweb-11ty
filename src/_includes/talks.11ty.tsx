@@ -1,6 +1,6 @@
-import getTalks from "../_data/talks.js";
-import { Talks } from "../components/talks.js";
-import { Layout } from "./layout.js";
+import getTalks from "../_data/talks";
+import { Talks } from "../components/talks";
+import { Layout } from "./layout";
 
 interface EleventyProps {
 	content: string;

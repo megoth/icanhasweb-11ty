@@ -35,6 +35,14 @@ body > footer {
 }
 
 .content {
+	h2 {
+		font-size: 1.5em;
+	}
+
+	p {
+		hyphens: auto;
+	}
+
 	picture {
 		text-align: center;
 		display: block;
@@ -57,8 +65,10 @@ body > footer {
 .meta {
 	display: flex;
 	gap: var(--bulma-size-small);
+	font-size: var(--bulma-small-font-size);
 }
 
+.projects.projects,
 .talks.talks {
 	dt {
 		margin-block-end: var(--bulma-size-small);

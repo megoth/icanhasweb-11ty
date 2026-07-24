@@ -2,7 +2,9 @@
 	"compilerOptions": {
 		"target": "es2022",
 		"module": "NodeNext",
+		"moduleResolution": "bundler",
 		"jsx": "react-jsx",
-		"allowSyntheticDefaultImports": true
+		"allowSyntheticDefaultImports": true,
+		"allowImportingTsExtensions": true
 	}
 }

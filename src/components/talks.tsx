@@ -1,6 +1,6 @@
 import { type FC, Fragment } from "react";
-import type { TalkList } from "../_data/talks.ts";
-import { TalkMeta } from "./talk-meta.js";
+import type { TalkList } from "../_data/talks";
+import { TalkMeta } from "./talk-meta";
 
 interface Props {
 	talks: TalkList;

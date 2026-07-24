@@ -1,30 +1,28 @@
-import { TalkMeta } from "../components/talk-meta";
+import type { ProjectData } from "../_data/projects";
+import { ProjectMeta } from "../components/project-meta";
 import { Layout } from "./layout";
 
-interface EleventyProps {
+interface EleventyProps extends ProjectData {
 	content: string;
-	date: Date;
-	repository: string;
-	title: string;
-	url: string;
 }
 
 export const render = async ({
 	content,
-	date,
-	title,
+	project,
 	repository,
+	status,
+	title,
 	url,
 }: EleventyProps) => {
 	const breadcrumbs = [
 		{ url: "/", title: "Home" },
-		{ url: "/talks", title: "Talks" },
+		{ url: "/projects", title: "Projects" },
 	];
 
 	return (
 		<Layout title={title} breadcrumbs={breadcrumbs}>
 			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
-			<TalkMeta {...{ date, repository, title, url }} />
+			<ProjectMeta {...{ project, repository, status, title, url }} />
 		</Layout>
 	);
 };
