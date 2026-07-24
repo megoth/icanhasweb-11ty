@@ -10,7 +10,7 @@ body {
 }
 
 body {
-	padding: 1rem;
+	padding: var(--bulma-size-medium);
 
 	@media screen and (min-width: 65ch) {
 		margin: 0 auto;
@@ -19,17 +19,35 @@ body {
 }
 
 body > header {
-	margin-block-end: 1rem;
+	margin-block-end: var(--bulma-size-medium);
 }
 
 body > footer {
-	margin-block-start: 1rem;
+	margin-block-start: var(--bulma-size-medium);
 }
 
 .blog-posts {
 	list-style: disc;
 	ul {
 		list-style: disc;
-		margin-inline-start: 1rem;
+		margin-inline-start: var(--bulma-size-medium);
 	}
+}
+
+.talks.talks {
+	dt {
+		margin-block-end: var(--bulma-size-small);
+	}
+	dd {
+		margin-inline-start: var(--bulma-size-medium);
+		margin-block-end: var(--bulma-size-large);
+	}
+	.content {
+		margin-block-end: var(--bulma-size-small);
+	}
+}
+
+.meta {
+	display: flex;
+	gap: var(--bulma-size-small);
 }

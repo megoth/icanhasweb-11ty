@@ -1,6 +1,6 @@
-import { Layout } from "./layout.js";
-import { BlogPosts } from "../components/blog-posts.js";
 import getBlogPosts from "../_data/blogPosts.js";
+import { BlogPosts } from "../components/blog-posts.js";
+import { Layout } from "./layout.js";
 
 interface EleventyProps {
 	content: string;

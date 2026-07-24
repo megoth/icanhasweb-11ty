@@ -1,5 +1,5 @@
-import { lstat, readdir } from "node:fs/promises";
 import { lstatSync } from "node:fs";
+import { readdir } from "node:fs/promises";
 import matter, { type GrayMatterFile } from "gray-matter";
 
 const BLOG_DIR = "src/blog/";

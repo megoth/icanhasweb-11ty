@@ -1,5 +1,5 @@
-import type { BlogPost } from "../_data/blogPosts.ts";
 import type { FC } from "react";
+import type { BlogPost } from "../_data/blogPosts.ts";
 
 interface Props {
 	posts: Array<{ post: BlogPost; slug: string }>;

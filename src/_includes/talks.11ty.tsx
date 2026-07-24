@@ -1,5 +1,5 @@
-import getBlogPosts from "../_data/blogPosts.js";
-import { BlogPosts } from "../components/blog-posts.js";
+import getTalks from "../_data/talks.js";
+import { Talks } from "../components/talks.js";
 import { Layout } from "./layout.js";
 
 interface EleventyProps {
@@ -9,13 +9,12 @@ interface EleventyProps {
 
 export const render = async ({ title, content }: EleventyProps) => {
 	const breadcrumbs = [{ url: "/", title: "Home" }];
-	const posts = await getBlogPosts();
+	const talks = await getTalks();
 
 	return (
 		<Layout title={title} breadcrumbs={breadcrumbs}>
 			<div className="content" dangerouslySetInnerHTML={{ __html: content }} />
-			<h2 className="subtitle">Archive</h2>
-			<BlogPosts posts={posts} />
+			<Talks talks={talks} />
 		</Layout>
 	);
 };
