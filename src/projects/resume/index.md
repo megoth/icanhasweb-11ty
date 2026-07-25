@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-status: active
+status: completed
 layout: project.11ty.tsx
 tags: resume, LaTeX
 repository: https://github.com/megoth/resume

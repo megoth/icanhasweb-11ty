@@ -12,6 +12,8 @@ export default async function (eleventyConfig) {
 	eleventyConfig.setOutputDirectory("dist");
 
 	eleventyConfig.addWatchTarget("src/components/**");
+	eleventyConfig.addWatchTarget("src/projects/**");
+	eleventyConfig.addWatchTarget("src/talks/**");
 
 	eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {
 		key: "11ty.js",
