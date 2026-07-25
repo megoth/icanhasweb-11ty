@@ -1,33 +1,34 @@
 @import "bulma.css";
 
-html,
-body {
-	margin: 0;
+html {
 	padding: 0;
 }
 
-.layout-container {
-	padding-block: var(--bulma-size-small);
-	padding-inline: var(--bulma-size-medium);
+html,
+body {
+	margin: 0;
+}
+
+body {
+	padding: var(--bulma-size-medium);
 
 	@media screen and (min-width: 71ch) {
 		margin: 0 auto;
 		max-width: 70ch;
 	}
+}
 
-	& > header {
-		margin-block-end: var(--bulma-size-medium);
-	}
+body > header {
+	margin-block-end: var(--bulma-size-medium);
+}
 
-	& > footer {
-		margin-block-start: var(--bulma-size-medium);
-		font-size: var(--bulma-small-font-size);
-	}
+body > footer {
+	margin-block-start: var(--bulma-size-medium);
+	font-size: var(--bulma-small-font-size);
 }
 
 .blog-posts {
 	list-style: disc;
-
 	ul {
 		list-style: disc;
 		margin-inline-start: var(--bulma-size-medium);
@@ -87,16 +88,13 @@ body {
 	dt {
 		margin-block-end: var(--bulma-size-small);
 	}
-
 	dd {
 		margin-inline-start: var(--bulma-size-medium);
 		margin-block-end: var(--bulma-size-large);
 	}
-
 	iframe {
 		margin-block-end: var(--bulma-size-small);
 	}
-
 	.content {
 		margin-block-end: var(--bulma-size-small);
 	}
