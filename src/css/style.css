@@ -40,6 +40,11 @@ body > footer {
 		font-size: 1.5em;
 	}
 
+	iframe {
+		display: block;
+		margin-block-end: var(--bulma-content-block-margin-bottom);
+	}
+
 	p {
 		hyphens: auto;
 	}

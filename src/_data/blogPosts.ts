@@ -22,7 +22,7 @@ export default async function getBlogPosts() {
 	);
 	return Promise.all(
 		blogPostDirectories.map(async (directory) => {
-			const post = matter.read(`${BLOG_DIR + directory}/index.md`) as BlogPost;
+			const post = matter.read(`${BLOG_DIR + directory}/index.mdx`) as BlogPost;
 			return {
 				post,
 				slug: directory,

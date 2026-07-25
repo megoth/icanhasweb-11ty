@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "npx @11ty/eleventy --formats=md,mdx --serve",
-		"build": "npx @11ty/eleventy --formats=md,mdx",
+		"dev": "npx @11ty/eleventy --formats=mdx --serve",
+		"build": "npx @11ty/eleventy --formats=mdx",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
