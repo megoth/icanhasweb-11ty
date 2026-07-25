@@ -83,6 +83,7 @@ body > footer {
 }
 
 .projects.projects,
+.songs.songs,
 .talks.talks {
 	dt {
 		margin-block-end: var(--bulma-size-small);
@@ -90,6 +91,9 @@ body > footer {
 	dd {
 		margin-inline-start: var(--bulma-size-medium);
 		margin-block-end: var(--bulma-size-large);
+	}
+	iframe {
+		margin-block-end: var(--bulma-size-small);
 	}
 	.content {
 		margin-block-end: var(--bulma-size-small);

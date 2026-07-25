@@ -12,6 +12,7 @@ export default async function (eleventyConfig) {
 	eleventyConfig.setOutputDirectory("dist");
 
 	eleventyConfig.addWatchTarget("src/components/**");
+	eleventyConfig.addWatchTarget("src/music/**");
 	eleventyConfig.addWatchTarget("src/projects/**");
 	eleventyConfig.addWatchTarget("src/talks/**");
 
