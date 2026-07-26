@@ -1,7 +1,7 @@
 ---
 title: Glory to Elmyra
 date: 2025-06-16
-songId: 2114536677
+soundCloudSongId: 2114536677
 ---
 
 I've been playing around on the Elmyra, and experimenting with a technique that produces a rhythmic bass drone. The

@@ -1,7 +1,7 @@
 ---
 title: Soft Techno Lullaby
 date: 2025-08-30
-songId: 2162118657
+soundCloudSongId: 2162118657
 ---
 
 Was playing around on the Solar 42f, feeding it a sequence from a Turing Machine eurorack module that's been quantized,

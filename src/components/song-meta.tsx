@@ -2,7 +2,7 @@ import type { FC } from "react";
 import type { SongData } from "../_data/music";
 import { DateFormat } from "./date-format";
 
-interface Props extends Omit<SongData, "songId" | "title"> {
+interface Props extends Omit<SongData, "soundCloudSongId" | "title"> {
 	slug: string;
 }
 

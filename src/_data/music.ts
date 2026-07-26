@@ -7,8 +7,9 @@ const MUSIC_DIR = "src/music/";
 
 export interface SongData {
 	date: Date;
-	songId: string;
+	soundCloudSongId?: string;
 	title: string;
+	youtubeVideoId?: string;
 }
 
 export type SongList = Array<{

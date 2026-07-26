@@ -1,7 +1,7 @@
 ---
 title: Desolate Trek
 date: 2025-12-15
-songId: 2230319429
+soundCloudSongId: 2230319429
 ---
 
 Recently acquired myself a Torso S-4, and this is the result of playing around with some of the default samples on the

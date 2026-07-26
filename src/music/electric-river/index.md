@@ -1,7 +1,7 @@
 ---
 title: Electric River
 date: 2026-07-02
-songId: 2352160565
+soundCloudSongId: 2352160565
 ---
 
 I saw a YouTube video by Andre Bregegere recently where he improvised some sounds on the Torso S-4, and he demonstrated

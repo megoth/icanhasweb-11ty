@@ -1,7 +1,7 @@
 ---
 title: Continuous Shimmer
 date: 2025-05-01
-songId: 2088481638
+soundCloudSongId: 2088481638
 ---
 
 Another patch that has evolved/simmered over a couple of days. The Oxi Coral is doing a lot of the interesting parts

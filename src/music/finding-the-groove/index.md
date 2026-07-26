@@ -1,7 +1,7 @@
 ---
 title: Finding the Groove
 date: 2025-08-22
-songId: 2157625728
+soundCloudSongId: 2157625728
 ---
 
 The result from a session yesterday. The Solar 42f kinda stole the show for me, both providing a textural background of
