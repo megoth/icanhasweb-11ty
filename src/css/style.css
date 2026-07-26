@@ -94,6 +94,7 @@ body > footer {
 	}
 	iframe {
 		margin-block-end: var(--bulma-size-small);
+		max-width: 100%;
 	}
 	.content {
 		margin-block-end: var(--bulma-size-small);
