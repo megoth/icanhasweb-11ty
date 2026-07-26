@@ -44,7 +44,7 @@ export const Songs: FC<Props> = ({ songs }) => {
 									loading="lazy"
 								/>
 							)}
-							<SongMeta date={data.date} slug={slug} />
+							<SongMeta {...data} slug={slug} />
 						</dd>
 					</Fragment>
 				))}
