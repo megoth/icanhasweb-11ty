@@ -10,6 +10,7 @@ export interface SongData {
 	soundCloudSongId?: string;
 	title: string;
 	youtubeVideoId?: string;
+	deleted?: Date
 }
 
 export type SongList = Array<{
@@ -23,7 +24,7 @@ export default async function getSongs() {
 	const songsDirectories = musicDirectoryEntries.filter((entry) =>
 		lstatSync(`${MUSIC_DIR}/${entry}`).isDirectory(),
 	);
-	return Promise.all(
+	return (await Promise.all(
 		songsDirectories.map(async (directory) => {
 			const path = `${MUSIC_DIR + directory}/index.md`;
 			const text = (await readFile(path)).toString();
@@ -33,5 +34,5 @@ export default async function getSongs() {
 				slug: directory,
 			};
 		}),
-	);
+	)).filter(({data}) => !data.deleted);
 }
