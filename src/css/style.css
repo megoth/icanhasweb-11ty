@@ -89,8 +89,8 @@ body > footer {
 		margin-block-end: var(--bulma-size-small);
 	}
 	dd {
-		margin-inline-start: var(--bulma-size-medium);
-		margin-block-end: var(--bulma-size-large);
+		margin-inline-start: 0;
+		margin-block-end: calc(var(--bulma-size-large) * 2);
 	}
 	iframe {
 		margin-block-end: var(--bulma-size-small);
